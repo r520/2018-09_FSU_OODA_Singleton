@@ -8,7 +8,8 @@ import org.junit.jupiter.api.Test;
 /**
  * BaseSingletonTest will do a basic test of the base singleton
  * 
- * @author orlando
+ * @author Orlando
+ * Student: Radhika Kasu
  */
 class BaseSingletonTest {
 	

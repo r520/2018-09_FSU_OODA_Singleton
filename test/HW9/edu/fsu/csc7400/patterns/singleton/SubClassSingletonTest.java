@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
  * BaseSingletonTest will do a basic test of the base singleton
  * 
  * @author orlando
+ * Student: Radhika Kasu
  */
 class SubClassSingletonTest {
 	
@@ -42,7 +43,12 @@ class SubClassSingletonTest {
 				singleton.getSomeState());
 	}
 
-	@Test
+
+	/**This test case is expected to fail.
+    Here the doSomething() method is setting the value to basesingleton someState variable.
+    So when we get the value variable, it returns variable someState of subClassSingleton.
+    Both do not match */
+    @Test
 	void testDoSomething() {
 		singleton.doSomething();
 		assertEquals(

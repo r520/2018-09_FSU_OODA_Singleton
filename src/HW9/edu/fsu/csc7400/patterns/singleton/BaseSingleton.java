@@ -2,8 +2,8 @@
  * Class: Object-Oriented Design and Analysis
  * Professor: Orlando Montalvo
  * Assignment: HW 9 - Singleton Problems
- * 
- * Date: 2017-11-11
+ * Student: Radhika Kasu
+ * Date: 2017-11-17
  */
 package HW9.edu.fsu.csc7400.patterns.singleton;
 
@@ -35,6 +35,7 @@ public class BaseSingleton {
 	 * Sets someState to newValue
 	 */
 	protected void setSomeState(int newValue) {
+
 		someState = newValue;
 	}
 
@@ -42,6 +43,7 @@ public class BaseSingleton {
 	 * Returns value of someState
 	 */
 	public int getSomeState() {
+
 		return someState;
 	}
 
@@ -49,6 +51,7 @@ public class BaseSingleton {
 	 * Simple function that sets state, will get overwritten
 	 */
 	public void doSomething() {
+
 		setSomeState(1);
 	}
 	
